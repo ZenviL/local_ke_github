@@ -11,8 +11,8 @@ class siswa
         siswa(const string &input_nama,const int &input_umur)
         {
             //pakai namespace kalo mau memasukan data dari luar
-            siswa::nama = input_nama;
-            siswa::umur = input_umur;
+            this->nama = input_nama;
+            this->umur = input_umur;
         }
         //method tanpa parameter tanpa return
         void print()
@@ -42,7 +42,7 @@ class siswa
         int tambahumur(const int &tambah_umur)
         {  
             umur = umur + tambah_umur;
-            return siswa::umur+tambah_umur;
+            return this->umur+tambah_umur;
         }
 
 
