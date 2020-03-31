@@ -53,7 +53,7 @@ int main(int argc, char const *argv[])
 {
     siswa siswa_1 = siswa("ataf",17);
     siswa_1.print();
-    siswa_1.setter_nama("gifar");
+    siswa_1.setter_nama("rahmat");
     siswa_1.print();
     siswa_1.tambahumur(1);
     siswa_1.print();
