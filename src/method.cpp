@@ -6,13 +6,13 @@ using namespace std;
 class siswa
 {
     public:
-        string panggilan;
+        string nama;
         int umur;
         siswa(const string &input_nama,const int &input_umur)
         {
             //pakai namespace kalo mau memasukan data dari luar
 
-            this->panggilan = input_nama;
+            this->nama = input_nama;
             this->umur = input_umur;
         }
         //method tanpa parameter tanpa return
@@ -24,7 +24,7 @@ class siswa
         //void dengan parameter tanpa return
         void setter_nama(const string &ubah_nama)
         {
-            panggilan = ubah_nama;  
+            nama = ubah_nama;  
         }
         void setter_umur(int &ubah_umur)
         {
